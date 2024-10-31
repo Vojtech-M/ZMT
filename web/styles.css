@@ -4,25 +4,30 @@ body, html {
     margin: 0;
     background-color: rgb(241, 241, 241);
     font-family: Verdana, sans-serif;
-}
-
-/* Main container to hold content and footer */
-.container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 
 /* Header styling */
 header {
     background-color: #333;
     color: white;
     padding: 1em;
+    display: flex;
+    justify-content: center;
 }
 
-/* Content styling */
+/* Center the iframe within main-content */
 .main-content {
-    flex: 1; /* Allows content to grow and push footer to the bottom */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
 }
 
 /* Footer styling */
@@ -30,7 +35,30 @@ footer {
     background-color: #1B262C;
     padding: 0px 30px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: white;
+}
+
+
+.process_description {
+    background-color: white;
+    font-size: 30px;
+    width: 90%;
+    height: 20%;
+
+}
+.process_description h2 {
+    text-align: center;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+
+
+}
+
+span {
+    color: #ff007f;
 }
