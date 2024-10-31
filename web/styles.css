@@ -1,0 +1,36 @@
+/* Ensure full viewport height for the main container */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+    font-family: Verdana, sans-serif;
+}
+
+/* Main container to hold content and footer */
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+/* Content styling */
+.main-content {
+    flex: 1; /* Allows content to grow and push footer to the bottom */
+}
+
+/* Footer styling */
+footer {
+    background-color: #1B262C;
+    padding: 0px 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
