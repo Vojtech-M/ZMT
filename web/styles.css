@@ -1,5 +1,6 @@
 /* Ensure full viewport height for the main container */
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     background-color: rgb(241, 241, 241);
@@ -45,9 +46,10 @@ footer {
     background-color: white;
     font-size: 30px;
     width: 90%;
-    height: 20%;
-
+    min-height: 200px;
+    padding: 20px;
 }
+
 .process_description h2 {
     text-align: center;
 }
