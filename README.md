@@ -1,5 +1,6 @@
 # ZMT
 Work for subject ZMT
+Jak programátor objevil rekolo
 
 
 
